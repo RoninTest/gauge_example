@@ -1,0 +1,624 @@
+10-07-2024 21:50:36.318 [Gauge] [ERROR] Concept parse failure: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt:3 Scenario Heading is not allowed in concept file => '## Search <text> as a guest'
+10-07-2024 21:50:36.319 [Gauge] [ERROR] Concept parse failure: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt:6 Dynamic parameter <text> could not be resolved => 'Write a <text> on "searchFiled"'
+10-07-2024 21:50:36.319 [Gauge] [ERROR] Parse failure: [[ParseError] /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt:3 Scenario Heading is not allowed in concept file => '## Search <text> as a guest' [ParseError] /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt:6 Dynamic parameter <text> could not be resolved => 'Write a <text> on "searchFiled"']
+10-07-2024 21:50:36.319 [Gauge] [INFO] Initializing concepts cache with 1 concepts
+10-07-2024 21:50:36.319 [Gauge] [DEBUG] Adding concepts from /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 21:50:36.319 [Gauge] [INFO] Initializing specs cache with 1 specs
+10-07-2024 21:50:36.319 [Gauge] [DEBUG] Adding specs from /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
+10-07-2024 21:50:36.319 [Gauge] [INFO] Initializing steps cache with 2 steps
+10-07-2024 21:50:36.319 [Gauge] [INFO] Gauge daemon initialized and listening on port: 49168
+10-07-2024 21:50:36.319 [Gauge] [DEBUG] Watching directory: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs
+10-07-2024 21:50:36.319 [Gauge] [DEBUG] Found 2 files
+10-07-2024 21:50:41.979 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search \"iphone\" as guest"}
+10-07-2024 21:50:41.979 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search {} as guest" parameterizedStepValue:"Search <iphone> as guest" parameters:"iphone"}}
+10-07-2024 21:50:41.982 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to home page"}
+10-07-2024 21:50:41.982 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"}}
+10-07-2024 21:50:41.982 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Click <searchFiled> element"}
+10-07-2024 21:50:41.982 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click {} element" parameterizedStepValue:"Click <searchFiled> element" parameters:"searchFiled"}}
+10-07-2024 21:50:42.015 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Common Steps"}
+10-07-2024 21:50:42.015 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Common Steps" parameterizedStepValue:"Common Steps"}}
+10-07-2024 21:50:42.016 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"# Search <text> as a guest"}
+10-07-2024 21:50:42.016 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"# Search {} as a guest" parameterizedStepValue:"# Search <text> as a guest" parameters:"text"}}
+10-07-2024 21:50:58.681 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Click \"searchFiled\" element"}
+10-07-2024 21:50:58.681 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click {} element" parameterizedStepValue:"Click <searchFiled> element" parameters:"searchFiled"}}
+10-07-2024 21:50:58.980 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Write a <text> on \"searchFiled\""}
+10-07-2024 21:50:58.980 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Write a {} on {}" parameterizedStepValue:"Write a <text> on <searchFiled>" parameters:"text" parameters:"searchFiled"}}
+10-07-2024 21:50:59.023 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Click a \"searchButton\" element."}
+10-07-2024 21:50:59.023 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click a {} element." parameterizedStepValue:"Click a <searchButton> element." parameters:"searchButton"}}
+10-07-2024 21:51:05.093 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"* Go to home page"}
+10-07-2024 21:51:05.094 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"* Go to home page" parameterizedStepValue:"* Go to home page"}}
+10-07-2024 21:51:05.095 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"* Click \"searchFiled\" element"}
+10-07-2024 21:51:05.095 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"* Click {} element" parameterizedStepValue:"* Click <searchFiled> element" parameters:"searchFiled"}}
+10-07-2024 21:51:05.095 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"* Write a <text> on \"searchFiled\""}
+10-07-2024 21:51:05.095 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"* Write a {} on {}" parameterizedStepValue:"* Write a <text> on <searchFiled>" parameters:"text" parameters:"searchFiled"}}
+10-07-2024 21:51:05.095 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"* Click a \"searchButton\" element."}
+10-07-2024 21:51:05.095 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"* Click a {} element." parameterizedStepValue:"* Click a <searchButton> element." parameters:"searchButton"}}
+10-07-2024 21:51:05.096 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"* Go to home page"}
+10-07-2024 21:51:05.096 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"* Go to home page" parameterizedStepValue:"* Go to home page"}}
+10-07-2024 21:51:22.453 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"G"}
+10-07-2024 21:51:22.453 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"G" parameterizedStepValue:"G"}}
+10-07-2024 21:51:22.574 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 21:51:22.574 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Write a {} on {}" parameterizedStepValue:"Write a <text> on <searchFiled>" parameters:"text" parameters:"searchFiled"} allSteps:{stepValue:"Click a {} element." parameterizedStepValue:"Click a <searchButton> element." parameters:"searchButton"} allSteps:{stepValue:"Search {} as guest" parameterizedStepValue:"Search <iphone> as guest" parameters:"iphone"} allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"} allSteps:{stepValue:"Click {} element" parameterizedStepValue:"Click <searchFiled> element" parameters:"searchFiled"}}
+10-07-2024 21:51:22.575 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 21:51:22.575 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Common Steps" parameterizedStepValue:"Common Steps"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:1}}
+10-07-2024 21:51:22.688 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go"}
+10-07-2024 21:51:22.690 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go" parameterizedStepValue:"Go"}}
+10-07-2024 21:51:48.993 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 21:51:48.993 [Gauge] [ERROR] Parse failure: [[ParseError] /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt:3 Scenario Heading is not allowed in concept file => '## Search <text> as a guest']
+10-07-2024 21:51:48.995 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
+10-07-2024 21:51:58.604 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 21:51:58.605 [Gauge] [ERROR] Parse failure: [[ParseError] /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt:3 Scenario Heading is not allowed in concept file => '## Search <text> as a guest']
+10-07-2024 21:52:19.927 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 21:52:19.927 [Gauge] [ERROR] Parse failure: [[ParseError] /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt:3 Scenario Heading is not allowed in concept file => '## Search <text> as a guest']
+10-07-2024 21:52:41.898 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 21:52:41.899 [Gauge] [ERROR] Parse failure: [[ParseError] /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt:3 Scenario Heading is not allowed in concept file => '## Search <text> as a guest']
+10-07-2024 21:53:26.107 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
+10-07-2024 21:53:29.271 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
+10-07-2024 21:53:58.742 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 21:53:58.742 [Gauge] [ERROR] Parse failure: [[ParseError] /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt:1 Concept should have atleast one step => 'Common Steps']
+10-07-2024 21:54:05.533 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 21:54:05.534 [Gauge] [ERROR] Parse failure: [[ParseError] /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt:1 Concept should have atleast one step => 'Common Steps']
+10-07-2024 21:54:16.515 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 21:54:37.035 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 21:54:55.245 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"S"}
+10-07-2024 21:54:55.245 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"S" parameterizedStepValue:"S"}}
+10-07-2024 21:54:55.253 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 21:54:55.253 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"}}
+10-07-2024 21:54:55.253 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 21:54:55.253 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Search as a guest" parameterizedStepValue:"Search as a guest"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:3}}
+10-07-2024 21:54:55.288 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Search as a guest"}
+10-07-2024 21:54:55.289 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest" parameterizedStepValue:"Search as a guest"}}
+10-07-2024 21:54:55.527 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Se"}
+10-07-2024 21:54:55.527 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Se" parameterizedStepValue:"Se"}}
+10-07-2024 21:54:55.743 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Sea"}
+10-07-2024 21:54:55.743 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Sea" parameterizedStepValue:"Sea"}}
+10-07-2024 21:54:56.522 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest"}
+10-07-2024 21:54:56.522 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest" parameterizedStepValue:"Search as a guest"}}
+10-07-2024 21:54:58.524 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
+10-07-2024 21:55:37.918 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 21:55:41.373 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 21:55:41.730 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 21:55:49.769 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 21:55:57.886 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 21:55:57.886 [Gauge] [ERROR] Parse failure: [[ParseError] /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt:1 Concept should have atleast one step => 'Concept']
+10-07-2024 21:56:04.147 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 21:56:04.147 [Gauge] [ERROR] Parse failure: [[ParseError] /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt:4 Scenario Heading is not allowed in concept file => '# Search as a guest']
+10-07-2024 21:56:16.748 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 21:56:16.748 [Gauge] [ERROR] Parse failure: [[ParseError] /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt:1 Concept should have atleast one step => 'Concept']
+10-07-2024 21:56:25.776 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 21:58:13.326 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 22:13:26.737 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/sdasd.cpt
+10-07-2024 22:13:26.745 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/sdasd.cpt
+10-07-2024 22:13:27.121 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"step1"}
+10-07-2024 22:13:27.121 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"step1" parameterizedStepValue:"step1"}}
+10-07-2024 22:13:27.181 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Concept Heading"}
+10-07-2024 22:13:27.181 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Concept Heading" parameterizedStepValue:"Concept Heading"}}
+10-07-2024 22:13:27.181 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"step2"}
+10-07-2024 22:13:27.181 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"step2" parameterizedStepValue:"step2"}}
+10-07-2024 22:13:47.332 [Gauge] [DEBUG] Concept file removed: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/sdasd.cpt
+10-07-2024 22:14:48.842 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to home page a"}
+10-07-2024 22:14:48.843 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to home page a" parameterizedStepValue:"Go to home page a"}}
+10-07-2024 22:14:48.847 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:14:48.847 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"}}
+10-07-2024 22:14:48.847 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:14:48.847 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Search as a guest" parameterizedStepValue:"Search as a guest"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:3}}
+10-07-2024 22:14:48.847 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:14:48.847 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"}}
+10-07-2024 22:14:48.847 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:14:48.847 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Search as a guest" parameterizedStepValue:"Search as a guest"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:3}}
+10-07-2024 22:14:49.035 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to home page an"}
+10-07-2024 22:14:49.036 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to home page an" parameterizedStepValue:"Go to home page an"}}
+10-07-2024 22:15:07.031 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Cearch"}
+10-07-2024 22:15:07.031 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Cearch" parameterizedStepValue:"Cearch"}}
+10-07-2024 22:15:09.925 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Ser"}
+10-07-2024 22:15:09.925 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Ser" parameterizedStepValue:"Ser"}}
+10-07-2024 22:15:10.317 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Serc"}
+10-07-2024 22:15:10.317 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Serc" parameterizedStepValue:"Serc"}}
+10-07-2024 22:15:12.399 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Searc"}
+10-07-2024 22:15:12.399 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Searc" parameterizedStepValue:"Searc"}}
+10-07-2024 22:15:13.639 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a"}
+10-07-2024 22:15:13.639 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a" parameterizedStepValue:"Search a"}}
+10-07-2024 22:15:14.101 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a "}
+10-07-2024 22:15:14.101 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a" parameterizedStepValue:"Search a"}}
+10-07-2024 22:15:14.959 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a te"}
+10-07-2024 22:15:14.959 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a te" parameterizedStepValue:"Search a te"}}
+10-07-2024 22:15:15.502 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a text"}
+10-07-2024 22:15:15.502 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a text" parameterizedStepValue:"Search a text"}}
+10-07-2024 22:15:18.367 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a pr"}
+10-07-2024 22:15:18.367 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a pr" parameterizedStepValue:"Search a pr"}}
+10-07-2024 22:15:19.859 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a prodcut"}
+10-07-2024 22:15:19.859 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a prodcut" parameterizedStepValue:"Search a prodcut"}}
+10-07-2024 22:15:20.939 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a prod"}
+10-07-2024 22:15:20.939 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a prod" parameterizedStepValue:"Search a prod"}}
+10-07-2024 22:15:21.704 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a product"}
+10-07-2024 22:15:21.704 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a product" parameterizedStepValue:"Search a product"}}
+10-07-2024 22:16:03.657 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a <product>"}
+10-07-2024 22:16:03.657 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <product>" parameters:"product"}}
+10-07-2024 22:16:26.683 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 22:16:27.582 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:16:27.582 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:16:27.585 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:16:27.585 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:16:27.620 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:16:27.621 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:16:27.621 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:16:27.621 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:16:27.621 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:16:27.621 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:16:27.657 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:16:27.657 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:16:27.762 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:16:27.762 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:16:27.763 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:16:27.763 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:16:27.804 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:16:27.804 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:16:27.804 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:16:27.805 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:16:27.805 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:16:27.805 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:16:27.842 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:16:27.842 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:16:28.063 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:16:28.063 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:16:28.437 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:16:28.437 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"}}
+10-07-2024 22:16:28.437 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:16:28.437 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Search as a guest" parameterizedStepValue:"Search as a guest"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:3}}
+10-07-2024 22:16:29.866 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"product\""}
+10-07-2024 22:16:29.866 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <product>" parameters:"product"}}
+10-07-2024 22:16:52.259 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Search as a guest with a <product>"}
+10-07-2024 22:16:52.259 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a {}" parameterizedStepValue:"Search as a guest with a <product>" parameters:"product"}}
+10-07-2024 22:16:54.520 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:16:54.520 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"}}
+10-07-2024 22:16:54.520 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:16:54.520 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Search as a guest" parameterizedStepValue:"Search as a guest"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:3}}
+10-07-2024 22:16:59.953 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"See"}
+10-07-2024 22:16:59.953 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"See" parameterizedStepValue:"See"}}
+10-07-2024 22:17:01.478 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Sear"}
+10-07-2024 22:17:01.478 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Sear" parameterizedStepValue:"Sear"}}
+10-07-2024 22:17:02.689 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search"}
+10-07-2024 22:17:02.689 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search" parameterizedStepValue:"Search"}}
+10-07-2024 22:17:03.661 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as"}
+10-07-2024 22:17:03.661 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as" parameterizedStepValue:"Search as"}}
+10-07-2024 22:17:04.211 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a"}
+10-07-2024 22:17:04.211 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a" parameterizedStepValue:"Search as a"}}
+10-07-2024 22:17:05.021 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a g"}
+10-07-2024 22:17:05.021 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a g" parameterizedStepValue:"Search as a g"}}
+10-07-2024 22:17:05.171 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a gu"}
+10-07-2024 22:17:05.171 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a gu" parameterizedStepValue:"Search as a gu"}}
+10-07-2024 22:17:05.267 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a gue"}
+10-07-2024 22:17:05.267 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a gue" parameterizedStepValue:"Search as a gue"}}
+10-07-2024 22:17:05.487 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a gues"}
+10-07-2024 22:17:05.487 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a gues" parameterizedStepValue:"Search as a gues"}}
+10-07-2024 22:17:09.406 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest wi"}
+10-07-2024 22:17:09.407 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest wi" parameterizedStepValue:"Search as a guest wi"}}
+10-07-2024 22:17:09.409 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:17:09.409 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"}}
+10-07-2024 22:17:09.409 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:17:09.409 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Search as a guest" parameterizedStepValue:"Search as a guest"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:3}}
+10-07-2024 22:17:09.409 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:17:09.409 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"}}
+10-07-2024 22:17:09.409 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:17:09.409 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Search as a guest" parameterizedStepValue:"Search as a guest"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:3}}
+10-07-2024 22:17:09.899 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest wit"}
+10-07-2024 22:17:09.899 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest wit" parameterizedStepValue:"Search as a guest wit"}}
+10-07-2024 22:17:15.003 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Search as a guest with a \"<product>\""}
+10-07-2024 22:17:15.003 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a {}" parameterizedStepValue:"Search as a guest with a <<product>>" parameters:"<product>"}}
+10-07-2024 22:17:19.673 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Search as a guest with a \"product\""}
+10-07-2024 22:17:19.673 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a {}" parameterizedStepValue:"Search as a guest with a <product>" parameters:"product"}}
+10-07-2024 22:17:25.225 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest w"}
+10-07-2024 22:17:25.225 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest w" parameterizedStepValue:"Search as a guest w"}}
+10-07-2024 22:17:26.983 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a h"}
+10-07-2024 22:17:26.983 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a h" parameterizedStepValue:"Search as a h"}}
+10-07-2024 22:17:27.025 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:17:27.025 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"}}
+10-07-2024 22:17:27.026 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:17:27.026 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Search as a guest" parameterizedStepValue:"Search as a guest"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:3}}
+10-07-2024 22:17:27.026 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:17:27.026 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"}}
+10-07-2024 22:17:27.026 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:17:27.026 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Search as a guest" parameterizedStepValue:"Search as a guest"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:3}}
+10-07-2024 22:17:27.874 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
+10-07-2024 22:17:30.450 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:17:30.450 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:17:30.661 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:17:30.661 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"} allSteps:{stepValue:"Search as a" parameterizedStepValue:"Search as a"}}
+10-07-2024 22:17:30.661 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:17:30.661 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Search as a guest" parameterizedStepValue:"Search as a guest"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:3}}
+10-07-2024 22:17:36.492 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:17:36.492 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"} allSteps:{stepValue:"Search as a" parameterizedStepValue:"Search as a"}}
+10-07-2024 22:17:36.492 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:17:36.492 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Search as a guest" parameterizedStepValue:"Search as a guest"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:3}}
+10-07-2024 22:17:36.492 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:17:36.492 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Search as a" parameterizedStepValue:"Search as a"} allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"}}
+10-07-2024 22:17:36.492 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:17:36.492 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Search as a guest" parameterizedStepValue:"Search as a guest"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:3}}
+10-07-2024 22:17:37.508 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with"}
+10-07-2024 22:17:37.508 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with" parameterizedStepValue:"Search as a guest with"}}
+10-07-2024 22:17:37.791 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a"}
+10-07-2024 22:17:37.792 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a" parameterizedStepValue:"Search as a guest with a"}}
+10-07-2024 22:17:37.792 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:17:37.792 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"} allSteps:{stepValue:"Search as a" parameterizedStepValue:"Search as a"}}
+10-07-2024 22:17:37.793 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:17:37.793 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Search as a guest" parameterizedStepValue:"Search as a guest"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:3}}
+10-07-2024 22:17:37.793 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:17:37.793 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Search as a" parameterizedStepValue:"Search as a"} allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"}}
+10-07-2024 22:17:37.793 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:17:37.793 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Search as a guest" parameterizedStepValue:"Search as a guest"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:3}}
+10-07-2024 22:17:38.845 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a p"}
+10-07-2024 22:17:38.846 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a p" parameterizedStepValue:"Search as a guest with a p"}}
+10-07-2024 22:17:38.921 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:17:38.921 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"} allSteps:{stepValue:"Search as a" parameterizedStepValue:"Search as a"}}
+10-07-2024 22:17:38.921 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:17:38.921 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Search as a guest" parameterizedStepValue:"Search as a guest"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:3}}
+10-07-2024 22:17:38.922 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:17:38.922 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"} allSteps:{stepValue:"Search as a" parameterizedStepValue:"Search as a"}}
+10-07-2024 22:17:38.922 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:17:38.922 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Search as a guest" parameterizedStepValue:"Search as a guest"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:3}}
+10-07-2024 22:17:39.025 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a pr"}
+10-07-2024 22:17:39.025 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a pr" parameterizedStepValue:"Search as a guest with a pr"}}
+10-07-2024 22:17:39.109 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a pro"}
+10-07-2024 22:17:39.109 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a pro" parameterizedStepValue:"Search as a guest with a pro"}}
+10-07-2024 22:17:39.301 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a prod"}
+10-07-2024 22:17:39.302 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a prod" parameterizedStepValue:"Search as a guest with a prod"}}
+10-07-2024 22:17:39.434 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a produ"}
+10-07-2024 22:17:39.434 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a produ" parameterizedStepValue:"Search as a guest with a produ"}}
+10-07-2024 22:17:39.531 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a produc"}
+10-07-2024 22:17:39.531 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a produc" parameterizedStepValue:"Search as a guest with a produc"}}
+10-07-2024 22:17:39.759 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a product"}
+10-07-2024 22:17:39.759 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a product" parameterizedStepValue:"Search as a guest with a product"}}
+10-07-2024 22:17:42.760 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a \"product\""}
+10-07-2024 22:17:42.760 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a {}" parameterizedStepValue:"Search as a guest with a <product>" parameters:"product"}}
+10-07-2024 22:17:58.615 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Search as a guest with a product"}
+10-07-2024 22:17:58.615 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a product" parameterizedStepValue:"Search as a guest with a product"}}
+10-07-2024 22:18:00.505 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a \"i\""}
+10-07-2024 22:18:00.506 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a {}" parameterizedStepValue:"Search as a guest with a <i>" parameters:"i"}}
+10-07-2024 22:18:00.722 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a \"ip\""}
+10-07-2024 22:18:00.723 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a {}" parameterizedStepValue:"Search as a guest with a <ip>" parameters:"ip"}}
+10-07-2024 22:18:00.960 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a \"iph\""}
+10-07-2024 22:18:00.960 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a {}" parameterizedStepValue:"Search as a guest with a <iph>" parameters:"iph"}}
+10-07-2024 22:18:01.039 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a \"ipho\""}
+10-07-2024 22:18:01.039 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a {}" parameterizedStepValue:"Search as a guest with a <ipho>" parameters:"ipho"}}
+10-07-2024 22:18:01.252 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a \"iphon\""}
+10-07-2024 22:18:01.252 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a {}" parameterizedStepValue:"Search as a guest with a <iphon>" parameters:"iphon"}}
+10-07-2024 22:18:01.329 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a \"iphone\""}
+10-07-2024 22:18:01.329 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a {}" parameterizedStepValue:"Search as a guest with a <iphone>" parameters:"iphone"}}
+10-07-2024 22:18:05.566 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Search as a guest with a \"product"}
+10-07-2024 22:18:05.566 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"String not terminated"}
+10-07-2024 22:18:11.871 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"* Search a \"product\""}
+10-07-2024 22:18:11.871 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"* Search a {}" parameterizedStepValue:"* Search a <product>" parameters:"product"}}
+10-07-2024 22:18:20.833 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 22:18:20.833 [Gauge] [ERROR] Parse failure: [[ParseError] /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt:3 Concept heading can have only Dynamic Parameters => 'Search as a guest with a "product"' [ParseError] /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt:4 Step is not defined inside a concept heading => 'Go to home page' [ParseError] /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt:5 Step is not defined inside a concept heading => 'Search a "product"']
+10-07-2024 22:18:20.835 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
+10-07-2024 22:20:03.787 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a iphone"}
+10-07-2024 22:20:03.787 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a iphone" parameterizedStepValue:"Search as a guest with a iphone"}}
+10-07-2024 22:20:06.470 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a <iphone>"}
+10-07-2024 22:20:06.470 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a {}" parameterizedStepValue:"Search as a guest with a <iphone>" parameters:"iphone"}}
+10-07-2024 22:20:12.637 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
+10-07-2024 22:20:52.858 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
+10-07-2024 22:20:53.840 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:20:53.840 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:20:53.844 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:20:53.844 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:20:53.906 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:20:53.907 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:20:53.907 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:20:53.907 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:20:53.907 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:20:53.907 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:20:53.954 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:20:53.955 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:20:53.955 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:20:53.955 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:20:53.955 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:20:53.955 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:20:54.142 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:20:54.142 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:20:54.403 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:20:54.403 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Search as a guest with a {}" parameterizedStepValue:"Search as a guest with a <iphone>" parameters:"iphone"}}
+10-07-2024 22:20:54.403 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:20:54.403 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+10-07-2024 22:21:03.876 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as \"\""}
+10-07-2024 22:21:03.876 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as {}" parameterizedStepValue:"Search as <>" parameters:""}}
+10-07-2024 22:21:04.900 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as \"i\""}
+10-07-2024 22:21:04.900 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as {}" parameterizedStepValue:"Search as <i>" parameters:"i"}}
+10-07-2024 22:21:05.090 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as \"ip\""}
+10-07-2024 22:21:05.090 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as {}" parameterizedStepValue:"Search as <ip>" parameters:"ip"}}
+10-07-2024 22:21:05.386 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as \"iph\""}
+10-07-2024 22:21:05.386 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as {}" parameterizedStepValue:"Search as <iph>" parameters:"iph"}}
+10-07-2024 22:21:05.497 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as \"ipho\""}
+10-07-2024 22:21:05.497 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as {}" parameterizedStepValue:"Search as <ipho>" parameters:"ipho"}}
+10-07-2024 22:21:05.654 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as \"iphon\""}
+10-07-2024 22:21:05.655 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as {}" parameterizedStepValue:"Search as <iphon>" parameters:"iphon"}}
+10-07-2024 22:21:05.736 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as \"iphone\""}
+10-07-2024 22:21:05.736 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as {}" parameterizedStepValue:"Search as <iphone>" parameters:"iphone"}}
+10-07-2024 22:21:10.011 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as <i>"}
+10-07-2024 22:21:10.011 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as {}" parameterizedStepValue:"Search as <i>" parameters:"i"}}
+10-07-2024 22:21:10.224 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as <ip>"}
+10-07-2024 22:21:10.224 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as {}" parameterizedStepValue:"Search as <ip>" parameters:"ip"}}
+10-07-2024 22:21:10.488 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as <iph>"}
+10-07-2024 22:21:10.488 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as {}" parameterizedStepValue:"Search as <iph>" parameters:"iph"}}
+10-07-2024 22:21:10.565 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as <ipho>"}
+10-07-2024 22:21:10.565 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as {}" parameterizedStepValue:"Search as <ipho>" parameters:"ipho"}}
+10-07-2024 22:21:10.810 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as <iphoe>"}
+10-07-2024 22:21:10.810 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as {}" parameterizedStepValue:"Search as <iphoe>" parameters:"iphoe"}}
+10-07-2024 22:21:11.475 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as <iphon>"}
+10-07-2024 22:21:11.475 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as {}" parameterizedStepValue:"Search as <iphon>" parameters:"iphon"}}
+10-07-2024 22:21:11.609 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as <iphone>"}
+10-07-2024 22:21:11.609 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as {}" parameterizedStepValue:"Search as <iphone>" parameters:"iphone"}}
+10-07-2024 22:21:16.946 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a <iphone>"}
+10-07-2024 22:21:16.947 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <iphone>" parameters:"iphone"}}
+10-07-2024 22:21:20.202 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
+10-07-2024 22:22:53.826 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
+10-07-2024 22:25:43.119 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"i\""}
+10-07-2024 22:25:43.119 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <i>" parameters:"i"}}
+10-07-2024 22:25:43.577 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"ip\""}
+10-07-2024 22:25:43.577 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <ip>" parameters:"ip"}}
+10-07-2024 22:25:44.466 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"\""}
+10-07-2024 22:25:44.466 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <>" parameters:""}}
+10-07-2024 22:25:45.031 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"p\""}
+10-07-2024 22:25:45.031 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <p>" parameters:"p"}}
+10-07-2024 22:25:45.225 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"pr\""}
+10-07-2024 22:25:45.225 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <pr>" parameters:"pr"}}
+10-07-2024 22:25:45.393 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"pro\""}
+10-07-2024 22:25:45.393 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <pro>" parameters:"pro"}}
+10-07-2024 22:25:45.806 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"prod\""}
+10-07-2024 22:25:45.806 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <prod>" parameters:"prod"}}
+10-07-2024 22:25:46.261 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"produ\""}
+10-07-2024 22:25:46.261 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <produ>" parameters:"produ"}}
+10-07-2024 22:25:46.348 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"produc\""}
+10-07-2024 22:25:46.348 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <produc>" parameters:"produc"}}
+10-07-2024 22:25:48.626 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"k\""}
+10-07-2024 22:25:48.626 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <k>" parameters:"k"}}
+10-07-2024 22:25:48.726 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"ke\""}
+10-07-2024 22:25:48.726 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <ke>" parameters:"ke"}}
+10-07-2024 22:25:48.929 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"key\""}
+10-07-2024 22:25:48.929 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <key>" parameters:"key"}}
+10-07-2024 22:25:56.057 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a \"io\""}
+10-07-2024 22:25:56.057 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a {}" parameterizedStepValue:"Search as a guest with a <io>" parameters:"io"}}
+10-07-2024 22:26:03.769 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 22:26:03.769 [Gauge] [ERROR] Parse failure: [[ParseError] /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt:3 Concept heading can have only Dynamic Parameters => 'Search as a guest with a "product"' [ParseError] /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt:4 Step is not defined inside a concept heading => 'Go to home page' [ParseError] /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt:5 Step is not defined inside a concept heading => 'Search a "key"']
+10-07-2024 22:26:03.771 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
+10-07-2024 22:26:30.890 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"* Search a \"key\""}
+10-07-2024 22:26:30.890 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"* Search a {}" parameterizedStepValue:"* Search a <key>" parameters:"key"}}
+10-07-2024 22:26:52.459 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:26:52.459 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Search as a guest with a {}" parameterizedStepValue:"Search as a guest with a <iphone>" parameters:"iphone"}}
+10-07-2024 22:26:52.459 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:26:52.459 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+10-07-2024 22:26:55.083 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
+10-07-2024 22:27:23.130 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 22:27:23.132 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
+10-07-2024 22:27:58.189 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a \"\""}
+10-07-2024 22:27:58.189 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a {}" parameterizedStepValue:"Search as a guest with a <>" parameters:""}}
+10-07-2024 22:27:59.014 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a \"p\""}
+10-07-2024 22:27:59.014 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a {}" parameterizedStepValue:"Search as a guest with a <p>" parameters:"p"}}
+10-07-2024 22:27:59.156 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a \"pe\""}
+10-07-2024 22:27:59.156 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a {}" parameterizedStepValue:"Search as a guest with a <pe>" parameters:"pe"}}
+10-07-2024 22:27:59.309 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a \"peo\""}
+10-07-2024 22:27:59.309 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a {}" parameterizedStepValue:"Search as a guest with a <peo>" parameters:"peo"}}
+10-07-2024 22:28:01.107 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a \"pr\""}
+10-07-2024 22:28:01.108 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a {}" parameterizedStepValue:"Search as a guest with a <pr>" parameters:"pr"}}
+10-07-2024 22:28:01.864 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a \"pro\""}
+10-07-2024 22:28:01.864 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a {}" parameterizedStepValue:"Search as a guest with a <pro>" parameters:"pro"}}
+10-07-2024 22:28:02.027 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a \"prod\""}
+10-07-2024 22:28:02.027 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a {}" parameterizedStepValue:"Search as a guest with a <prod>" parameters:"prod"}}
+10-07-2024 22:28:02.369 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a \"produ\""}
+10-07-2024 22:28:02.369 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a {}" parameterizedStepValue:"Search as a guest with a <produ>" parameters:"produ"}}
+10-07-2024 22:28:02.499 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search as a guest with a \"produc\""}
+10-07-2024 22:28:02.499 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search as a guest with a {}" parameterizedStepValue:"Search as a guest with a <produc>" parameters:"produc"}}
+10-07-2024 22:28:09.520 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Search as a guest with a \"product"}
+10-07-2024 22:28:09.520 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"String not terminated"}
+10-07-2024 22:28:19.867 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 22:28:19.869 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
+10-07-2024 22:28:46.489 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"iph\""}
+10-07-2024 22:28:46.489 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <iph>" parameters:"iph"}}
+10-07-2024 22:28:46.591 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"ipho\""}
+10-07-2024 22:28:46.591 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <ipho>" parameters:"ipho"}}
+10-07-2024 22:28:46.819 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"iphon\""}
+10-07-2024 22:28:46.819 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <iphon>" parameters:"iphon"}}
+10-07-2024 22:28:46.928 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"iphone\""}
+10-07-2024 22:28:46.928 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <iphone>" parameters:"iphone"}}
+10-07-2024 22:29:06.149 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"iphonea\""}
+10-07-2024 22:29:06.149 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <iphonea>" parameters:"iphonea"}}
+10-07-2024 22:29:06.285 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"iphoneal\""}
+10-07-2024 22:29:06.285 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <iphoneal>" parameters:"iphoneal"}}
+10-07-2024 22:29:06.529 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"iphoneali\""}
+10-07-2024 22:29:06.529 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <iphoneali>" parameters:"iphoneali"}}
+10-07-2024 22:29:17.395 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search  \"iphoneali\""}
+10-07-2024 22:29:17.395 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search  {}" parameterizedStepValue:"Search  <iphoneali>" parameters:"iphoneali"}}
+10-07-2024 22:29:17.965 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search \"iphoneali\""}
+10-07-2024 22:29:17.965 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search {}" parameterizedStepValue:"Search <iphoneali>" parameters:"iphoneali"}}
+10-07-2024 22:29:39.305 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"prou\""}
+10-07-2024 22:29:39.305 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <prou>" parameters:"prou"}}
+10-07-2024 22:29:42.175 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 22:29:42.177 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
+10-07-2024 22:30:06.844 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 22:31:07.616 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"* Search a \"iphone\""}
+10-07-2024 22:31:07.616 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"* Search a {}" parameterizedStepValue:"* Search a <iphone>" parameters:"iphone"}}
+10-07-2024 22:31:39.397 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Search a <product> as a Guest"}
+10-07-2024 22:31:39.397 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {} as a Guest" parameterizedStepValue:"Search a <product> as a Guest" parameters:"product"}}
+10-07-2024 22:31:41.743 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a <product> as a Guest"}
+10-07-2024 22:31:41.743 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {} as a Guest" parameterizedStepValue:"Search a <product> as a Guest" parameters:"product"}}
+10-07-2024 22:31:47.705 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 22:31:47.707 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
+10-07-2024 22:31:56.895 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"product\" as a Guest"}
+10-07-2024 22:31:56.895 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {} as a Guest" parameterizedStepValue:"Search a <product> as a Guest" parameters:"product"}}
+10-07-2024 22:31:59.244 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"i\" as a Guest"}
+10-07-2024 22:31:59.244 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {} as a Guest" parameterizedStepValue:"Search a <i> as a Guest" parameters:"i"}}
+10-07-2024 22:31:59.447 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"ip\" as a Guest"}
+10-07-2024 22:31:59.447 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {} as a Guest" parameterizedStepValue:"Search a <ip> as a Guest" parameters:"ip"}}
+10-07-2024 22:31:59.723 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"iph\" as a Guest"}
+10-07-2024 22:31:59.724 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {} as a Guest" parameterizedStepValue:"Search a <iph> as a Guest" parameters:"iph"}}
+10-07-2024 22:31:59.954 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"ipho\" as a Guest"}
+10-07-2024 22:31:59.954 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {} as a Guest" parameterizedStepValue:"Search a <ipho> as a Guest" parameters:"ipho"}}
+10-07-2024 22:32:00.145 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"iphon\" as a Guest"}
+10-07-2024 22:32:00.145 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {} as a Guest" parameterizedStepValue:"Search a <iphon> as a Guest" parameters:"iphon"}}
+10-07-2024 22:32:00.236 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"iphone\" as a Guest"}
+10-07-2024 22:32:00.236 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {} as a Guest" parameterizedStepValue:"Search a <iphone> as a Guest" parameters:"iphone"}}
+10-07-2024 22:32:03.976 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"iphone2\""}
+10-07-2024 22:32:03.976 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <iphone2>" parameters:"iphone2"}}
+10-07-2024 22:32:14.932 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"iphone3\""}
+10-07-2024 22:32:14.932 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <iphone3>" parameters:"iphone3"}}
+10-07-2024 22:32:15.800 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Search a <iphone2> as a Guest"}
+10-07-2024 22:32:15.800 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {} as a Guest" parameterizedStepValue:"Search a <iphone2> as a Guest" parameters:"iphone2"}}
+10-07-2024 22:32:17.274 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"iphone1\" as a Guest"}
+10-07-2024 22:32:17.274 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {} as a Guest" parameterizedStepValue:"Search a <iphone1> as a Guest" parameters:"iphone1"}}
+10-07-2024 22:32:18.963 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 22:32:18.965 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
+10-07-2024 22:32:43.664 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"* Search a \"iphone3\""}
+10-07-2024 22:32:43.664 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"* Search a {}" parameterizedStepValue:"* Search a <iphone3>" parameters:"iphone3"}}
+10-07-2024 22:33:39.580 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:33:39.581 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:33:39.589 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:33:39.589 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:33:40.483 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"C"}
+10-07-2024 22:33:40.483 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"C" parameterizedStepValue:"C"}}
+10-07-2024 22:33:41.041 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Clo"}
+10-07-2024 22:33:41.041 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Clo" parameterizedStepValue:"Clo"}}
+10-07-2024 22:33:41.999 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Close"}
+10-07-2024 22:33:41.999 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Close" parameterizedStepValue:"Close"}}
+10-07-2024 22:33:44.622 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Close dri"}
+10-07-2024 22:33:44.622 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Close dri" parameterizedStepValue:"Close dri"}}
+10-07-2024 22:33:45.496 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Close driber"}
+10-07-2024 22:33:45.496 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Close driber" parameterizedStepValue:"Close driber"}}
+10-07-2024 22:33:46.580 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Close dri "}
+10-07-2024 22:33:46.581 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Close dri" parameterizedStepValue:"Close dri"}}
+10-07-2024 22:33:47.962 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Close driver"}
+10-07-2024 22:33:47.962 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Close driver" parameterizedStepValue:"Close driver"}}
+10-07-2024 22:35:04.611 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:35:04.611 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:35:04.623 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:35:04.623 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:35:05.504 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"c"}
+10-07-2024 22:35:05.504 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"c" parameterizedStepValue:"c"}}
+10-07-2024 22:35:08.390 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Close "}
+10-07-2024 22:35:08.390 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Close" parameterizedStepValue:"Close"}}
+10-07-2024 22:35:09.871 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Close Driver"}
+10-07-2024 22:35:09.871 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Close Driver" parameterizedStepValue:"Close Driver"}}
+10-07-2024 22:35:46.335 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 22:35:46.335 [Gauge] [ERROR] Parse failure: [[ParseError] /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt:1 Concept should have atleast one step => 'Close Driver']
+10-07-2024 22:35:51.923 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:35:51.923 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:35:51.925 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:35:51.925 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:35:51.961 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Close Driver"}
+10-07-2024 22:35:51.961 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Close Driver" parameterizedStepValue:"Close Driver"}}
+10-07-2024 22:35:51.961 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:35:51.961 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:35:51.961 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:35:51.961 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:35:51.961 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:35:51.961 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:35:51.961 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:35:51.961 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:35:51.996 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:35:51.996 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:35:51.997 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:35:51.997 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:35:52.224 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:35:52.224 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:35:53.026 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:35:53.026 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:35:53.027 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:35:53.027 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:35:53.062 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:35:53.062 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:35:53.062 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:35:53.062 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:35:53.062 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:35:53.062 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:35:53.062 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:35:53.062 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:35:53.098 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:35:53.098 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:35:53.098 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:35:53.098 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:35:53.327 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:35:53.327 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:35:53.566 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:35:53.566 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"} allSteps:{stepValue:"Search a {}" parameterizedStepValue:"Search a <iphone3>" parameters:"iphone3"}}
+10-07-2024 22:35:53.566 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:35:53.566 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Close Driver" parameterizedStepValue:"Close Driver"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:1}}
+10-07-2024 22:35:53.810 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Cl"}
+10-07-2024 22:35:53.810 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Cl" parameterizedStepValue:"Cl"}}
+10-07-2024 22:35:54.096 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Cls"}
+10-07-2024 22:35:54.096 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Cls" parameterizedStepValue:"Cls"}}
+10-07-2024 22:35:54.925 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:35:54.925 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"} allSteps:{stepValue:"Search a {}" parameterizedStepValue:"Search a <iphone3>" parameters:"iphone3"}}
+10-07-2024 22:35:54.925 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:35:54.925 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Close Driver" parameterizedStepValue:"Close Driver"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:1}}
+10-07-2024 22:36:01.852 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Close river"}
+10-07-2024 22:36:01.853 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Close river" parameterizedStepValue:"Close river"}}
+10-07-2024 22:36:02.028 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:36:02.028 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"} allSteps:{stepValue:"Search a {}" parameterizedStepValue:"Search a <iphone3>" parameters:"iphone3"}}
+10-07-2024 22:36:02.028 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:36:02.028 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Close Driver" parameterizedStepValue:"Close Driver"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:1}}
+10-07-2024 22:36:15.120 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"* Close driver"}
+10-07-2024 22:36:15.120 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"* Close driver" parameterizedStepValue:"* Close driver"}}
+10-07-2024 22:36:25.652 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Close tdriver"}
+10-07-2024 22:36:25.652 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Close tdriver" parameterizedStepValue:"Close tdriver"}}
+10-07-2024 22:36:25.655 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:36:25.655 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Search a {}" parameterizedStepValue:"Search a <iphone3>" parameters:"iphone3"} allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"}}
+10-07-2024 22:36:25.655 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:36:25.655 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Close Driver" parameterizedStepValue:"Close Driver"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:1}}
+10-07-2024 22:36:25.655 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:36:25.655 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"} allSteps:{stepValue:"Search a {}" parameterizedStepValue:"Search a <iphone3>" parameters:"iphone3"}}
+10-07-2024 22:36:25.656 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:36:25.656 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Close Driver" parameterizedStepValue:"Close Driver"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:1}}
+10-07-2024 22:36:25.808 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Close thdriver"}
+10-07-2024 22:36:25.808 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Close thdriver" parameterizedStepValue:"Close thdriver"}}
+10-07-2024 22:36:25.953 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Close thedriver"}
+10-07-2024 22:36:25.953 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Close thedriver" parameterizedStepValue:"Close thedriver"}}
+10-07-2024 22:36:26.040 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Close the driver"}
+10-07-2024 22:36:26.040 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Close the driver" parameterizedStepValue:"Close the driver"}}
+10-07-2024 22:36:27.997 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"* Close the driver"}
+10-07-2024 22:36:27.997 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"* Close the driver" parameterizedStepValue:"* Close the driver"}}
+10-07-2024 22:36:47.695 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
+10-07-2024 22:36:49.539 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:36:49.539 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"} allSteps:{stepValue:"Search a {}" parameterizedStepValue:"Search a <iphone3>" parameters:"iphone3"} allSteps:{stepValue:"Search a {} as a Guest" parameterizedStepValue:"Search a <iphone1> as a Guest" parameters:"iphone1"}}
+10-07-2024 22:36:49.539 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:36:49.539 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Close Driver" parameterizedStepValue:"Close Driver"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:1}}
+10-07-2024 22:36:51.723 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Close Drive"}
+10-07-2024 22:36:51.723 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Close Drive" parameterizedStepValue:"Close Drive"}}
+10-07-2024 22:36:52.224 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Close Driv"}
+10-07-2024 22:36:52.224 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Close Driv" parameterizedStepValue:"Close Driv"}}
+10-07-2024 22:36:52.307 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Close Dri"}
+10-07-2024 22:36:52.307 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Close Dri" parameterizedStepValue:"Close Dri"}}
+10-07-2024 22:36:52.391 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Close Dr"}
+10-07-2024 22:36:52.391 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Close Dr" parameterizedStepValue:"Close Dr"}}
+10-07-2024 22:36:52.516 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Close D"}
+10-07-2024 22:36:52.516 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Close D" parameterizedStepValue:"Close D"}}
+10-07-2024 22:36:52.760 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Clos"}
+10-07-2024 22:36:52.760 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Clos" parameterizedStepValue:"Clos"}}
+10-07-2024 22:36:53.683 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+10-07-2024 22:36:53.683 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+10-07-2024 22:36:53.794 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+10-07-2024 22:36:53.794 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Search a {}" parameterizedStepValue:"Search a <iphone3>" parameters:"iphone3"} allSteps:{stepValue:"Search a {} as a Guest" parameterizedStepValue:"Search a <iphone1> as a Guest" parameters:"iphone1"} allSteps:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"}}
+10-07-2024 22:36:53.794 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+10-07-2024 22:36:53.794 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Close Driver" parameterizedStepValue:"Close Driver"} filepath:"/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt" lineNumber:1}}
+10-07-2024 22:36:57.415 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 22:36:57.416 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
+10-07-2024 22:37:34.782 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a iphone3>"}
+10-07-2024 22:37:34.782 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a iphone3>" parameterizedStepValue:"Search a iphone3>"}}
+10-07-2024 22:37:35.124 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a <iphone3>"}
+10-07-2024 22:37:35.124 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <iphone3>" parameters:"iphone3"}}
+10-07-2024 22:37:40.453 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a <iphone2>"}
+10-07-2024 22:37:40.454 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <iphone2>" parameters:"iphone2"}}
+10-07-2024 22:37:44.352 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 22:38:12.397 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a <p>"}
+10-07-2024 22:38:12.397 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <p>" parameters:"p"}}
+10-07-2024 22:38:12.775 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a <pr>"}
+10-07-2024 22:38:12.775 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <pr>" parameters:"pr"}}
+10-07-2024 22:38:12.856 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a <pro>"}
+10-07-2024 22:38:12.856 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <pro>" parameters:"pro"}}
+10-07-2024 22:38:13.019 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a <prod>"}
+10-07-2024 22:38:13.019 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <prod>" parameters:"prod"}}
+10-07-2024 22:38:13.188 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a <produ>"}
+10-07-2024 22:38:13.189 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <produ>" parameters:"produ"}}
+10-07-2024 22:38:13.276 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a <produc>"}
+10-07-2024 22:38:13.276 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <produc>" parameters:"produc"}}
+10-07-2024 22:38:16.089 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+10-07-2024 22:38:27.332 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
+10-07-2024 22:38:40.043 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"* Search a <product>"}
+10-07-2024 22:38:40.043 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"* Search a {}" parameterizedStepValue:"* Search a <product>" parameters:"product"}}

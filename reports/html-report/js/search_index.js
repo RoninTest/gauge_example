@@ -1,0 +1,1 @@
+var index = {"Tags":{"mainpage":["specs/example.html"],"search":["specs/example.html"],"successful":["specs/example.html"]},"Specs":{"Search feature spec":["specs/example.html"]}};
