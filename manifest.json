@@ -2,5 +2,7 @@
   "Language": "java",
   "Plugins": [
     "html-report"
-  ]
+  ],
+  "concept_dir": "specs/Concepts",
+  "specs_dir": "specs/Specs"
 }

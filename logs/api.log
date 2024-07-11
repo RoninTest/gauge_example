@@ -622,3 +622,79 @@
 10-07-2024 22:38:27.332 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
 10-07-2024 22:38:40.043 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"* Search a <product>"}
 10-07-2024 22:38:40.043 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"* Search a {}" parameterizedStepValue:"* Search a <product>" parameters:"product"}}
+11-07-2024 12:41:38.717 [Gauge] [INFO] Initializing concepts cache with 2 concepts
+11-07-2024 12:41:38.717 [Gauge] [DEBUG] Adding concepts from /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+11-07-2024 12:41:38.717 [Gauge] [DEBUG] Adding concepts from /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+11-07-2024 12:41:38.718 [Gauge] [INFO] Initializing specs cache with 1 specs
+11-07-2024 12:41:38.718 [Gauge] [DEBUG] Adding specs from /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
+11-07-2024 12:41:38.718 [Gauge] [INFO] Initializing steps cache with 2 steps
+11-07-2024 12:41:38.718 [Gauge] [INFO] Gauge daemon initialized and listening on port: 49651
+11-07-2024 12:41:38.719 [Gauge] [DEBUG] Watching directory: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs
+11-07-2024 12:41:38.719 [Gauge] [DEBUG] Found 2 files
+11-07-2024 12:42:56.890 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"* Close the driver"}
+11-07-2024 12:42:56.890 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"* Close the driver" parameterizedStepValue:"* Close the driver"}}
+11-07-2024 12:42:56.896 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"* Go to home page"}
+11-07-2024 12:42:56.896 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"* Go to home page" parameterizedStepValue:"* Go to home page"}}
+11-07-2024 12:42:56.898 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"* Search a <product>"}
+11-07-2024 12:42:56.898 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"* Search a {}" parameterizedStepValue:"* Search a <product>" parameters:"product"}}
+11-07-2024 12:42:56.901 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a \"iphone\" as a Guest"}
+11-07-2024 12:42:56.901 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {} as a Guest" parameterizedStepValue:"Search a <iphone> as a Guest" parameters:"iphone"}}
+11-07-2024 12:42:56.901 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Close the driver"}
+11-07-2024 12:42:56.902 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Close the driver" parameterizedStepValue:"Close the driver"}}
+11-07-2024 12:42:56.905 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to home page"}
+11-07-2024 12:42:56.905 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to home page" parameterizedStepValue:"Go to home page"}}
+11-07-2024 12:42:56.940 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Search a <product>"}
+11-07-2024 12:42:56.940 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {}" parameterizedStepValue:"Search a <product>" parameters:"product"}}
+11-07-2024 12:43:54.448 [Gauge] [DEBUG] Watching directory: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/Specs
+11-07-2024 12:43:54.448 [Gauge] [DEBUG] Found 0 files
+11-07-2024 12:44:00.138 [Gauge] [DEBUG] Watching directory: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/Concepts
+11-07-2024 12:44:00.138 [Gauge] [DEBUG] Found 0 files
+11-07-2024 12:44:05.016 [Gauge] [DEBUG] Concept file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/Concepts/example.cpt
+11-07-2024 12:44:05.017 [Gauge] [ERROR] Parse failure: [[ParseError] /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/Concepts/example.cpt:1 Duplicate concept definition found => 'Close Driver' [ParseError] /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt:1 Duplicate concept definition found => 'Close Driver' [ParseError] /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/Concepts/example.cpt:4 Duplicate concept definition found => 'Search a <product> as a Guest' [ParseError] /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt:4 Duplicate concept definition found => 'Search a <product> as a Guest']
+11-07-2024 12:44:05.017 [Gauge] [DEBUG] Concept file removed: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.cpt
+11-07-2024 12:44:07.468 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/Specs/example.spec
+11-07-2024 12:44:07.469 [Gauge] [DEBUG] Spec file removed: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/example.spec
+11-07-2024 12:49:55.812 [Gauge] [DEBUG] Removing watcher on : /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/Specs
+11-07-2024 12:49:55.812 [Gauge] [ERROR] Unable to remove watcher on: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/Specs. fsnotify: can't remove non-existent watch: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/Specs
+11-07-2024 12:49:55.812 [Gauge] [DEBUG] Watching directory: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/specs
+11-07-2024 12:49:55.812 [Gauge] [DEBUG] Found 1 files
+11-07-2024 12:50:01.556 [Gauge] [ERROR] Unable to add directory /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/Concepts.tmp to file watcher: "/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/Concepts.tmp/example.cpt": lstat /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/Concepts.tmp/example.cpt: no such file or directory
+11-07-2024 12:50:01.556 [Gauge] [DEBUG] Watching directory: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/concepts
+11-07-2024 12:50:01.556 [Gauge] [DEBUG] Found 1 files
+11-07-2024 12:50:01.556 [Gauge] [DEBUG] Removing watcher on : /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/Concepts
+11-07-2024 12:50:01.556 [Gauge] [ERROR] Unable to remove watcher on: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/Concepts. fsnotify: can't remove non-existent watch: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/Concepts
+11-07-2024 12:51:13.564 [Gauge] [ERROR] Unable to add directory /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/specs.tmp to file watcher: "/Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/specs.tmp/example.spec": lstat /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/specs.tmp/example.spec: no such file or directory
+11-07-2024 12:51:13.564 [Gauge] [DEBUG] Watching directory: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/Specs
+11-07-2024 12:51:13.565 [Gauge] [DEBUG] Found 1 files
+11-07-2024 12:51:13.565 [Gauge] [DEBUG] Removing watcher on : /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/specs
+11-07-2024 12:51:13.565 [Gauge] [ERROR] Unable to remove watcher on: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/specs. fsnotify: can't remove non-existent watch: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/specs
+11-07-2024 12:51:13.565 [Gauge] [DEBUG] Removing watcher on : /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/specs
+11-07-2024 12:51:13.565 [Gauge] [ERROR] Unable to remove watcher on: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/specs. fsnotify: can't remove non-existent watch: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/specs
+11-07-2024 12:51:13.565 [Gauge] [DEBUG] Removing watcher on : /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/specs
+11-07-2024 12:51:13.565 [Gauge] [ERROR] Unable to remove watcher on: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/specs. fsnotify: can't remove non-existent watch: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/specs
+11-07-2024 12:51:20.602 [Gauge] [ERROR] Unable to add directory /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/concepts.tmp to file watcher: open /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/concepts.tmp: no such file or directory
+11-07-2024 12:51:20.602 [Gauge] [DEBUG] Watching directory: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/Concepts
+11-07-2024 12:51:20.602 [Gauge] [DEBUG] Found 1 files
+11-07-2024 12:51:20.602 [Gauge] [DEBUG] Removing watcher on : /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/concepts
+11-07-2024 12:51:20.602 [Gauge] [ERROR] Unable to remove watcher on: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/concepts. fsnotify: can't remove non-existent watch: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/concepts
+11-07-2024 12:51:20.602 [Gauge] [DEBUG] Removing watcher on : /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/concepts
+11-07-2024 12:51:20.602 [Gauge] [ERROR] Unable to remove watcher on: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/concepts. fsnotify: can't remove non-existent watch: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/concepts
+11-07-2024 12:51:20.602 [Gauge] [DEBUG] Removing watcher on : /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/concepts
+11-07-2024 12:51:20.602 [Gauge] [ERROR] Unable to remove watcher on: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/concepts. fsnotify: can't remove non-existent watch: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/concepts
+11-07-2024 12:52:02.168 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Close Driver"}
+11-07-2024 12:52:02.168 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Close Driver" parameterizedStepValue:"Close Driver"}}
+11-07-2024 12:52:02.168 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Search a <product> as a Guest"}
+11-07-2024 12:52:02.168 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Search a {} as a Guest" parameterizedStepValue:"Search a <product> as a Guest" parameters:"product"}}
+11-07-2024 12:53:03.051 [Gauge] [INFO] Initializing concepts cache with 2 concepts
+11-07-2024 12:53:03.051 [Gauge] [DEBUG] Adding concepts from /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/Concepts/example.cpt
+11-07-2024 12:53:03.051 [Gauge] [DEBUG] Adding concepts from /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/Concepts/example.cpt
+11-07-2024 12:53:03.051 [Gauge] [INFO] Initializing specs cache with 1 specs
+11-07-2024 12:53:03.051 [Gauge] [DEBUG] Adding specs from /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/Specs/example.spec
+11-07-2024 12:53:03.051 [Gauge] [INFO] Initializing steps cache with 2 steps
+11-07-2024 12:53:03.051 [Gauge] [INFO] Gauge daemon initialized and listening on port: 49926
+11-07-2024 12:53:03.052 [Gauge] [DEBUG] Watching directory: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs
+11-07-2024 12:53:03.052 [Gauge] [DEBUG] Found 2 files
+11-07-2024 12:53:03.052 [Gauge] [DEBUG] Watching directory: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/Concepts
+11-07-2024 12:53:03.052 [Gauge] [DEBUG] Found 1 files
+11-07-2024 12:53:03.052 [Gauge] [DEBUG] Watching directory: /Users/alierendasdemir/IdeaProjects/Gauge_Exmpl/specs/Specs
+11-07-2024 12:53:03.052 [Gauge] [DEBUG] Found 1 files
