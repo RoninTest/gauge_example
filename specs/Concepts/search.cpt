@@ -1,0 +1,16 @@
+# Close Driver
+* Close the driver
+
+# Quite Driver
+* Quite the driver
+
+# Search a <product> as a Guest
+* Go to home page
+* Search a <product>
+* Verify searching product search result in page
+
+# Search <noResultView> as a Guest
+* Go to home page
+* Search a <noResultView>
+* Verify no Result View
+
