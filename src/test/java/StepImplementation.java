@@ -76,7 +76,7 @@ public class StepImplementation {
         loginPage.userName.sendKeys("example@gmail.com");
     }
 
-    @Step("Verify attempt of unsuccessful login with just email data")
+    @Step("Verify attempt of unsuccessful login unexpected login")
     public void VerifyAttemptOfUnsuccessfulLoginWithJustEmailData(){
         Driver.wait.until(ExpectedConditions.visibilityOf(loginPage.unexpectedLoginError));
     }
@@ -85,6 +85,14 @@ public class StepImplementation {
     public void EnterUserPasswordData(){
         loginPage.password.click();
         loginPage.password.sendKeys(".Example123Example");
+    }
+
+    @Step("Enter <username> and <password>")
+    public void EnterUsernameAndPassword(String username, String password){
+        loginPage.userName.click();
+        loginPage.userName.sendKeys(username);
+        loginPage.password.click();
+        loginPage.password.sendKeys(password);
     }
 
 }

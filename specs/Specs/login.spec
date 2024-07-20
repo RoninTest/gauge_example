@@ -17,14 +17,19 @@ Tags: search
 * Go to login page from main page
 * Enter email data
 * Click login button
-* Verify attempt of unsuccessful login with just email data
+* Verify attempt of unsuccessful login unexpected login
 * Close the driver
 
 Unsuccessful login (just password input)
 -------------------
 Tags: search
+
 * Go to login page from main page
 * Enter user password data
 * Click login button
 * Verify attempt of unsuccessful login
 * Close the driver
+
+
+
+
