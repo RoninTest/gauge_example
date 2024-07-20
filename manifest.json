@@ -1,8 +1,10 @@
 {
   "Language": "java",
   "Plugins": [
-    "html-report"
+    "html-report",
+    "xml-report",
+    "flash",
+    "spectacle"
   ],
-  "concept_dir": "specs/Concepts",
-  "specs_dir": "specs/Specs"
+  "EnvironmentDir": ""
 }
