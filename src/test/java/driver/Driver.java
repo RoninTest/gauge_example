@@ -1,5 +1,6 @@
 package driver;
 
+import config.ConfigRider;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 import org.openqa.selenium.JavascriptException;
@@ -17,6 +18,7 @@ public class Driver {
     public static WebDriverWait wait;
     public static JavascriptException js;
     public static Actions action;
+    public static String baseUrl = ConfigRider.getProperty("base_url");
 
     public static WebDriver getDriver() {
 
@@ -24,8 +26,10 @@ public class Driver {
             WebDriverManager.chromedriver().clearDriverCache();
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
+
             driver = new ChromeDriver(options);
-            driver.get("https://www.hepsiburada.com");
+            driver.get(baseUrl);
+            System.out.println("BaseUrl : " + baseUrl);
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
             action = new Actions(Driver.getDriver());

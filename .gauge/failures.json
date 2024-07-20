@@ -5,5 +5,7 @@
 		"--hide-suggestion",
 		"--simple-console"
 	],
-	"FailedItems": []
+	"FailedItems": [
+		"specs/Specs/loginbyproperties.spec:12"
+	]
 }
