@@ -6,6 +6,7 @@
 		"--simple-console"
 	],
 	"FailedItems": [
-		"specs/Specs/loginbyproperties.spec:12"
+		"specs/Specs/login.spec:14",
+		"specs/Specs/login.spec:23"
 	]
 }

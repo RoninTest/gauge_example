@@ -6,5 +6,5 @@
     "flash",
     "spectacle"
   ],
-  "EnvironmentDir": ""
+  "EnvironmentDir": "env"
 }

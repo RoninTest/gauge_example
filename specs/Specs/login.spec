@@ -1,10 +1,10 @@
 Login feature spec
 ===================
-Tags: search, mainpage
+Tags: login, mainpage
 
 Unsuccessful login (no data input)
 -------------------
-Tags: search
+Tags: login
 * Go to login page from main page
 * Click login button
 * Verify attempt of unsuccessful login
@@ -13,7 +13,7 @@ Tags: search
 
 Unsuccessful login (just email input)
 -------------------
-Tags: search
+Tags: login
 * Go to login page from main page
 * Enter email data
 * Click login button
@@ -22,7 +22,7 @@ Tags: search
 
 Unsuccessful login (just password input)
 -------------------
-Tags: search
+Tags: login
 
 * Go to login page from main page
 * Enter user password data

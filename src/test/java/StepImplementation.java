@@ -29,10 +29,9 @@ public class StepImplementation {
     }
 
     @Step("Go to home page")
-    public void GoToHomePage() throws InterruptedException {
+    public void GoToHomePage() {
         Driver.getDriver();
         searchPage.cookieReject.click();
-        Thread.sleep(5000);
         Driver.wait.until(ExpectedConditions.visibilityOf(searchPage.searchFieldClickElement));
     }
 
@@ -66,29 +65,29 @@ public class StepImplementation {
     }
 
     @Step("Verify attempt of unsuccessful login")
-    public void VerifyAttemptOfUnsuccessfulLogin(){
+    public void VerifyAttemptOfUnsuccessfulLogin() {
         Driver.wait.until(ExpectedConditions.visibilityOf(loginPage.unsuccessfulText));
     }
 
     @Step("Enter email data")
-        public void EnterEmailData(){
+    public void EnterEmailData() {
         loginPage.userName.click();
         loginPage.userName.sendKeys("example@gmail.com");
     }
 
     @Step("Verify attempt of unsuccessful login unexpected login")
-    public void VerifyAttemptOfUnsuccessfulLoginWithJustEmailData(){
+    public void VerifyAttemptOfUnsuccessfulLoginWithJustEmailData() {
         Driver.wait.until(ExpectedConditions.visibilityOf(loginPage.unexpectedLoginError));
     }
 
     @Step("Enter user password data")
-    public void EnterUserPasswordData(){
+    public void EnterUserPasswordData() {
         loginPage.password.click();
         loginPage.password.sendKeys(".Example123Example");
     }
 
     @Step("Enter <username> and <password>")
-    public void EnterUsernameAndPassword(String username, String password){
+    public void EnterUsernameAndPassword(String username, String password) {
         loginPage.userName.click();
         loginPage.userName.sendKeys(username);
         loginPage.password.click();

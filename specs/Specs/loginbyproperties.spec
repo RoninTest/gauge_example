@@ -1,8 +1,6 @@
 Login with parameters
 =====================
 
-gauge_data_dir = data/qa
-
     |username           | password |
     |-------------------|----------|
     |example1@gmail.com | A123     |

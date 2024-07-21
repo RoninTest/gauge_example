@@ -1,15 +1,15 @@
 Search feature spec
 ===================
-Tags: search, mainpage
+Tags: login
 
 Successful search
 -------------------
-Tags: search
+Tags: login
 * Search a "iphone" as a Guest
 * Close the driver
 
 No result view search
 --------------------
-Tags: search
+Tags: login
 * Search "xasdaxafasfda" as a Guest
 * Close the driver

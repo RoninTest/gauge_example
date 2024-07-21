@@ -3,7 +3,7 @@ package driver;
 import config.ConfigRider;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-import org.openqa.selenium.JavascriptException;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -16,7 +16,8 @@ public class Driver {
 
     public static WebDriver driver;
     public static WebDriverWait wait;
-    public static JavascriptException js;
+
+    public static JavascriptExecutor js;
     public static Actions action;
     public static String baseUrl = ConfigRider.getProperty("base_url");
 
@@ -26,14 +27,13 @@ public class Driver {
             WebDriverManager.chromedriver().clearDriverCache();
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
-
             driver = new ChromeDriver(options);
             driver.get(baseUrl);
-            System.out.println("BaseUrl : " + baseUrl);
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-            action = new Actions(Driver.getDriver());
-            wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(10));
+            action = new Actions(driver);
+            wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+            js = (JavascriptExecutor) driver;
         }
         return driver;
     }
